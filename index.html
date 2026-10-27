@@ -1,80 +1,219 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Global Trading Partners | Fuel & Petroleum, Gloves and Commodities | Patrick "Pat" Mackaronis</title>
-<meta name="description" content="Global Trading Partners, led by CEO Patrick Pat Mackaronis, supplies Fuel & Petroleum products, nitrile gloves, copper, steel and sugar to qualified buyers globally.">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<title>Global Trading Partners | Fuel &amp; Petroleum, Gloves and Commodities | Patrick "Pat" Mackaronis</title>
+<meta name="description" content="Global Trading Partners, led by CEO Patrick Pat Mackaronis, supplies Fuel &amp; Petroleum products, nitrile gloves, copper, steel and sugar to qualified buyers globally.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--navy:#0b1a2e;--navy2:#12263f;--char:#1c232d;--accent:#f5a524;--text:#e8edf4;--muted:#9fb0c6}
+:root{--ink:#0a1424;--ink2:#0e1b30;--ink3:#13233c;--ivory:#F5F2EC;--brass:#b89a5e;--brass2:#d4bb85;--mute:#a7b0bf;--line:rgba(245,242,236,.14)}
 *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
-body{font-family:Inter,sans-serif;background:var(--navy);color:var(--text);line-height:1.6}
-h1,h2,h3{font-family:'Playfair Display',serif;line-height:1.2}
-a{color:inherit;text-decoration:none}.wrap{max-width:1200px;margin:auto;padding:0 24px}
-header{position:fixed;top:0;width:100%;z-index:10;background:rgba(11,26,46,.92);backdrop-filter:blur(8px);border-bottom:1px solid #ffffff14}
-nav{display:flex;align-items:center;justify-content:space-between;height:72px}
-.logo img{height:44px;background:#fff;border-radius:4px;padding:4px}
-.links{display:flex;gap:26px;font-size:14px;font-weight:500}.links a:hover{color:var(--accent)}
-.burger{display:none;background:none;border:0;color:#fff;font-size:26px}
-.btn{display:inline-block;background:var(--accent);color:#111;padding:14px 28px;border-radius:4px;font-weight:600}
-.btn.ghost{background:transparent;color:#fff;border:1px solid #fff6;margin-left:12px}
-section{padding:100px 0}.eyebrow{color:var(--accent);text-transform:uppercase;letter-spacing:.18em;font-size:12px;font-weight:600;margin-bottom:12px}
-.hero{min-height:100vh;display:flex;align-items:center;background:linear-gradient(90deg,#0b1a2ef2 35%,#0b1a2e66),url(https://images.unsplash.com/photo-1605745341112-85968b19335b?w=1800&q=80) center/cover}
-.hero h1{font-size:clamp(38px,5.5vw,68px);max-width:760px}.hero p{max-width:600px;color:var(--muted);margin:22px 0 34px;font-size:18px}
-.fuel{background:var(--navy2)}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
-.grid2 img{width:100%;border-radius:6px;height:440px;object-fit:cover}
-h2{font-size:clamp(30px,3.5vw,44px);margin-bottom:18px}.muted{color:var(--muted)}
-.chips{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0}.chips span{border:1px solid var(--accent);color:var(--accent);padding:6px 14px;border-radius:30px;font-size:13px}
-.ph{border:1px dashed #ffffff40;padding:14px;border-radius:4px;color:var(--muted);font-size:13px;margin-top:14px}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:40px}
-.card{background:var(--char);border-radius:6px;overflow:hidden;border:1px solid #ffffff10;transition:.3s}.card:hover{transform:translateY(-4px);border-color:var(--accent)}
-.card img{width:100%;height:190px;object-fit:cover}.card div{padding:22px}.card h3{font-size:22px;margin-bottom:8px}.card p{color:var(--muted);font-size:14px}.card .more{color:var(--accent);font-size:13px;font-weight:600;margin-top:12px;display:block}
-.ceo img{height:520px;object-position:top}
-.news{background:var(--navy2)}
-.contact form{display:grid;gap:14px}.contact input,.contact textarea{background:var(--char);border:1px solid #ffffff22;color:#fff;padding:14px;border-radius:4px;font:inherit}
-footer{background:#070f1c;padding:40px 0;font-size:13px;color:var(--muted)}footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
-.fade{opacity:0;transform:translateY(24px);transition:.8s}.fade.in{opacity:1;transform:none}
-@media(max-width:860px){.links{display:none;position:absolute;top:72px;left:0;right:0;background:var(--navy);flex-direction:column;padding:24px}.links.open{display:flex}.burger{display:block}.grid2,.cards{grid-template-columns:1fr}.btn.ghost{margin:12px 0 0}}
+body{font-family:'Inter Tight',sans-serif;font-weight:300;background:var(--ink);color:var(--ivory);line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::after{content:"";position:fixed;inset:-50%;pointer-events:none;z-index:100;opacity:.07;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+h1,h2,h3{font-family:'Cormorant Garamond',serif;font-weight:300;line-height:1.04;letter-spacing:-.01em}
+h1 em,h2 em{font-style:italic;color:var(--brass2)}
+a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
+.wrap{max-width:1320px;margin:auto;padding:0 56px}
+.label{font-size:11px;font-weight:500;letter-spacing:.32em;text-transform:uppercase;color:var(--brass2);display:flex;align-items:center;gap:16px}
+.label::before{content:"";width:40px;height:1px;background:var(--brass)}
+.label.plain::before{display:none}
+.rule{height:1px;background:var(--line)}
+/* nav */
+header{position:fixed;top:0;left:0;right:0;z-index:50;transition:background .5s,border-color .5s;border-bottom:1px solid transparent}
+header.solid{background:rgba(10,20,36,.88);backdrop-filter:blur(14px);border-color:var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;height:92px;transition:height .5s}header.solid nav{height:72px}
+.brand{display:flex;flex-direction:column;line-height:1}.brand b{font-family:'Cormorant Garamond',serif;font-weight:400;font-size:26px;letter-spacing:.02em}.brand small{font-size:9px;letter-spacing:.42em;text-transform:uppercase;color:var(--brass2);margin-top:6px}
+.links{display:flex;gap:38px;font-size:11px;letter-spacing:.24em;text-transform:uppercase;font-weight:400}
+.links a{position:relative;padding:6px 0}.links a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1px;background:var(--brass);transition:width .4s}.links a:hover::after{width:100%}
+.burger{display:none;background:none;border:0;width:32px;height:20px;position:relative;cursor:pointer}.burger span{position:absolute;left:0;right:0;height:1px;background:var(--ivory);transition:.3s}.burger span:nth-child(1){top:4px}.burger span:nth-child(2){bottom:4px}
+.burger.x span:nth-child(1){top:10px;transform:rotate(45deg)}.burger.x span:nth-child(2){bottom:9px;transform:rotate(-45deg)}
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:14px;padding:18px 34px;font:500 11px 'Inter Tight',sans-serif;letter-spacing:.26em;text-transform:uppercase;border:1px solid var(--brass);background:var(--brass);color:var(--ink);cursor:pointer;transition:.4s}
+.btn:hover{background:transparent;color:var(--brass2)}
+.btn.ghost{background:transparent;color:var(--ivory);border-color:rgba(245,242,236,.4)}.btn.ghost:hover{border-color:var(--brass);color:var(--brass2)}
+.arrow{display:inline-flex;align-items:center;gap:14px;font-size:11px;letter-spacing:.26em;text-transform:uppercase;font-weight:500;color:var(--ivory);transition:color .3s}
+.arrow i{display:block;width:34px;height:1px;background:currentColor;position:relative;transition:width .4s}.arrow i::after{content:"";position:absolute;right:0;top:-3px;width:7px;height:7px;border-top:1px solid currentColor;border-right:1px solid currentColor;transform:rotate(45deg)}
+.arrow:hover,a:hover .arrow{color:var(--brass2)}.arrow:hover i,a:hover .arrow i{width:54px}
+/* hero */
+.hero{position:relative;height:100vh;min-height:680px;overflow:hidden;display:flex;align-items:flex-end}
+.slides,.slides div{position:absolute;inset:0}
+.slides div{background-size:cover;background-position:center;opacity:0;transform:scale(1.08);transition:opacity 2.4s ease,transform 9s linear}
+.slides div.on{opacity:1;transform:scale(1)}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,16,30,.92) 0%,rgba(8,16,30,.6) 45%,rgba(8,16,30,.15) 100%),linear-gradient(0deg,rgba(8,16,30,.95) 0%,transparent 45%)}
+.hero .wrap{position:relative;z-index:2;width:100%;padding-bottom:120px}
+.hero h1{font-size:clamp(46px,7vw,104px);max-width:900px;margin:30px 0 30px}
+.hero p.lead{max-width:540px;color:#cfd4dc;font-size:17px;margin-bottom:46px}
+.hero .ctas{display:flex;gap:16px;flex-wrap:wrap}
+.hero-foot{position:absolute;z-index:2;left:0;right:0;bottom:0}.hero-foot .wrap{display:flex;justify-content:space-between;align-items:center;padding-bottom:36px;font-size:10px;letter-spacing:.32em;text-transform:uppercase;color:var(--mute)}
+.dots{display:flex;gap:10px}.dots span{width:28px;height:1px;background:rgba(245,242,236,.3);transition:.6s}.dots span.on{background:var(--brass2);width:56px}
+/* sections */
+section{padding:160px 0;position:relative}
+h2{font-size:clamp(40px,5vw,76px);margin:28px 0 30px}
+.mute{color:var(--mute)}
+.fuel{background:var(--ivory);color:var(--ink)}
+.fuel .label{color:#8a6d36}.fuel .label::before{background:#8a6d36}.fuel h2 em{color:#8a6d36}.fuel .mute{color:#4b5566}
+.fuel-grid{display:grid;grid-template-columns:5fr 7fr;gap:90px;align-items:start}
+.fuel-img{position:relative}.fuel-img .frame{overflow:hidden;aspect-ratio:4/5}.fuel-img img{width:100%;height:100%;object-fit:cover}
+.fuel-img .cap{position:absolute;left:-28px;bottom:48px;background:var(--ink);color:var(--ivory);padding:26px 30px;max-width:260px}
+.fuel-img .cap b{display:block;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:44px;line-height:1;color:var(--brass2)}.fuel-img .cap span{font-size:10px;letter-spacing:.28em;text-transform:uppercase}
+.fuel-text{padding-top:40px}.fuel-text .big{font-family:'Cormorant Garamond',serif;font-size:clamp(22px,2.1vw,30px);line-height:1.4;font-weight:400;margin-bottom:56px;color:#1c2738}
+.prods{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #0a142422}
+.prods div{padding:28px 18px 28px 0;border-bottom:1px solid #0a142422}
+.prods svg{width:30px;height:30px;stroke:#8a6d36;fill:none;stroke-width:1;margin-bottom:18px}
+.prods b{display:block;font-family:'Cormorant Garamond',serif;font-weight:400;font-size:26px}.prods small{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:#4b5566}
+.ph{border:1px dashed currentColor;opacity:.75;padding:16px 20px;font-size:12px;letter-spacing:.04em;margin-top:36px}
+.fuel .row{display:flex;gap:40px;align-items:center;margin-top:48px;flex-wrap:wrap}.fuel .arrow{color:var(--ink)}.fuel .arrow:hover{color:#8a6d36}
+/* divisions */
+.div-head{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:end;margin-bottom:80px}.div-head p{max-width:460px}
+.tiles{display:grid;grid-template-columns:1.25fr 1fr;grid-template-rows:auto auto;gap:28px}
+.tile{position:relative;overflow:hidden;display:block;min-height:340px;color:var(--ivory)}
+.tile.tall{grid-row:span 2;min-height:760px}
+.tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 1.6s cubic-bezier(.2,.7,.2,1)}
+.tile:hover img{transform:scale(1.07)}
+.tile::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(8,16,30,.94) 0%,rgba(8,16,30,.35) 50%,rgba(8,16,30,.7))}
+.tile .in{position:absolute;inset:0;z-index:2;padding:40px;display:flex;flex-direction:column;justify-content:space-between}
+.tile .num{font-family:'Cormorant Garamond',serif;font-size:20px;color:var(--brass2);display:flex;align-items:center;gap:14px}.tile .num::after{content:"";width:0;height:1px;background:var(--brass);transition:width .6s}.tile:hover .num::after{width:60px}
+.tile h3{font-size:clamp(32px,3vw,48px);margin-bottom:14px}.tile p{color:#cfd4dc;font-size:15px;max-width:440px;margin-bottom:24px}
+.tile svg{width:34px;height:34px;stroke:var(--brass2);fill:none;stroke-width:1}
+/* ceo */
+.about{background:var(--ink2)}
+.ceo-grid{display:grid;grid-template-columns:5fr 6fr;gap:110px;align-items:center}
+.portrait{position:relative}.portrait .frame{overflow:hidden;aspect-ratio:3/4}.portrait img{width:100%;height:100%;object-fit:cover;object-position:top}
+.portrait::before{content:"";position:absolute;top:-24px;left:-24px;width:60%;height:60%;border-top:1px solid var(--brass);border-left:1px solid var(--brass)}
+.quote{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:300;font-size:clamp(24px,2.3vw,32px);line-height:1.35;margin:10px 0 36px;padding-left:28px;border-left:1px solid var(--brass)}
+.role{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--mute);margin-bottom:36px}
+.timeline{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);margin:44px 0}
+.timeline div{padding:24px 20px 0 0}.timeline b{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:40px;color:var(--brass2);display:block;line-height:1.1}.timeline span{font-size:12px;color:var(--mute)}
+.about p.body{color:#c3c9d3;margin-bottom:18px;max-width:560px}
+/* news */
+.news-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:70px;gap:40px;flex-wrap:wrap}
+.news-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+.post{display:block}.post .frame{overflow:hidden;aspect-ratio:4/3;margin-bottom:28px}.post:first-child .frame{aspect-ratio:5/4}
+.post img{width:100%;height:100%;object-fit:cover;transition:transform 1.4s}.post:hover img{transform:scale(1.06)}
+.post .meta{font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:var(--brass2);margin-bottom:14px}
+.post h3{font-size:30px;margin-bottom:12px}.post p{color:var(--mute);font-size:14px}
+/* contact */
+.contact{background:var(--ivory);color:var(--ink)}
+.contact .label{color:#8a6d36}.contact .label::before{background:#8a6d36}.contact h2 em{color:#8a6d36}
+.c-grid{display:grid;grid-template-columns:1fr 1fr;gap:120px}
+.c-list{margin-top:50px;border-top:1px solid #0a142422}.c-list div{display:grid;grid-template-columns:140px 1fr;padding:22px 0;border-bottom:1px solid #0a142422;align-items:center}
+.c-list small{font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:#4b5566}.c-list a,.c-list span{font-family:'Cormorant Garamond',serif;font-size:24px}.c-list a:hover{color:#8a6d36}
+form{display:grid;gap:8px;align-content:start;padding-top:20px}
+.f{position:relative}.f input,.f textarea{width:100%;background:transparent;border:0;border-bottom:1px solid #0a142444;padding:26px 0 14px;font:300 17px 'Inter Tight',sans-serif;color:var(--ink);outline:none;resize:none;transition:border-color .3s}
+.f input:focus,.f textarea:focus{border-color:#8a6d36}
+.f label{position:absolute;left:0;top:26px;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:#4b5566;transition:.3s;pointer-events:none}
+.f input:focus+label,.f input:not(:placeholder-shown)+label,.f textarea:focus+label,.f textarea:not(:placeholder-shown)+label{top:2px;font-size:9px;color:#8a6d36}
+form .btn{margin-top:36px;justify-self:start;background:var(--ink);border-color:var(--ink);color:var(--ivory)}form .btn:hover{background:transparent;color:var(--ink)}
+/* footer */
+footer{background:#060d19;padding:120px 0 40px;color:var(--mute);font-size:13px}
+.f-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:60px;padding-bottom:80px;border-bottom:1px solid var(--line)}
+.f-top .brand b{font-size:40px;color:var(--ivory)}.f-top p{max-width:360px;margin-top:28px}
+.f-top h4{font-size:10px;letter-spacing:.32em;text-transform:uppercase;color:var(--brass2);font-weight:500;margin-bottom:24px}
+.f-top ul{list-style:none;display:grid;gap:12px}.f-top a:hover{color:var(--ivory)}
+.f-bot{display:flex;justify-content:space-between;padding-top:34px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;flex-wrap:wrap;gap:14px}.f-bot b{color:var(--brass2);font-weight:500}
+/* motion */
+.fade{opacity:0;transform:translateY(40px);transition:opacity 1.2s cubic-bezier(.2,.7,.2,1),transform 1.2s cubic-bezier(.2,.7,.2,1)}.fade.in{opacity:1;transform:none}
+.d1{transition-delay:.15s}.d2{transition-delay:.3s}.d3{transition-delay:.45s}
+.zoom img{transform:scale(1.15);transition:transform 2.4s cubic-bezier(.2,.7,.2,1)}.zoom.in img{transform:scale(1)}
+@media(max-width:1000px){
+.wrap{padding:0 24px}section{padding:100px 0}
+.links{position:fixed;inset:0;background:var(--ink);flex-direction:column;justify-content:center;align-items:center;gap:30px;font-size:13px;opacity:0;pointer-events:none;transition:opacity .4s}.links.open{opacity:1;pointer-events:auto}
+.burger{display:block;z-index:60}
+nav{height:76px}
+.hero .wrap{padding-bottom:110px}.hero p.lead{font-size:16px}.hero .btn{padding:16px 24px}
+.fuel-grid,.ceo-grid,.c-grid,.div-head{grid-template-columns:1fr;gap:56px}
+.fuel-img .cap{left:0;bottom:-1px}.fuel-text{padding-top:0}
+.prods{grid-template-columns:repeat(2,1fr)}
+.tiles{grid-template-columns:1fr}.tile,.tile.tall{min-height:440px;grid-row:auto}.tile .in{padding:28px}
+.portrait{margin:24px 0 0 24px}
+.news-grid{grid-template-columns:1fr;gap:56px}
+.f-top{grid-template-columns:1fr 1fr;gap:44px}.f-top>div:first-child{grid-column:1/-1}
+.c-list div{grid-template-columns:1fr;gap:4px}
+.div-head{margin-bottom:50px}
+.hero::after{background:linear-gradient(0deg,rgba(8,16,30,.96) 10%,rgba(8,16,30,.7) 60%,rgba(8,16,30,.45))}
+}
+@media(prefers-reduced-motion:reduce){.fade,.zoom img,.slides div{transition:none!important;opacity:1;transform:none}}
 </style></head><body>
-<header><nav class="wrap"><a class="logo" href="#"><img src="assets/Global-Trading.png" alt="Global Trading Partners logo"></a>
-<button class="burger" onclick="document.querySelector('.links').classList.toggle('open')">&#9776;</button>
-<div class="links"><a href="#fuel">Fuel &amp; Petroleum</a><a href="#divisions">Divisions</a><a href="#about">About / CEO</a><a href="#news">News &amp; Press</a><a href="#contact">Contact</a></div></nav></header>
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="i-drop" viewBox="0 0 32 32"><path d="M16 3C11 11 8 15.5 8 20a8 8 0 0 0 16 0c0-4.5-3-9-8-17z"/><path d="M12 21a4 4 0 0 0 4 4"/></symbol>
+<symbol id="i-plane" viewBox="0 0 32 32"><path d="M4 18l24-9-6 16-5-6-6 4 1-6z"/><path d="M17 19l11-10"/></symbol>
+<symbol id="i-barrel" viewBox="0 0 32 32"><ellipse cx="16" cy="6" rx="9" ry="3"/><path d="M7 6v20c0 1.7 4 3 9 3s9-1.3 9-3V6"/><path d="M7 13c0 1.7 4 3 9 3s9-1.3 9-3M7 20c0 1.7 4 3 9 3s9-1.3 9-3"/></symbol>
+<symbol id="i-rig" viewBox="0 0 32 32"><path d="M10 29L16 4l6 25M12 21h8M13.5 14h5M6 29h20M16 4v-1"/></symbol>
+<symbol id="i-glove" viewBox="0 0 32 32"><path d="M10 29v-7l-4-6a2 2 0 0 1 3-2l3 3V6a2 2 0 0 1 4 0v8V4a2 2 0 0 1 4 0v10V6a2 2 0 0 1 4 0v10-6a2 2 0 0 1 3 0v11c0 4-3 8-6 8z"/></symbol>
+<symbol id="i-cube" viewBox="0 0 32 32"><path d="M16 3l11 6v14l-11 6-11-6V9z"/><path d="M5 9l11 6 11-6M16 15v14"/></symbol>
+<symbol id="i-bank" viewBox="0 0 32 32"><path d="M4 12L16 5l12 7zM6 12v12M11 12v12M16 12v12M21 12v12M26 12v12M3 27h26"/></symbol>
+</defs></svg>
 
-<section class="hero"><div class="wrap fade"><p class="eyebrow">Fuel &amp; Petroleum | Global Trade</p>
-<h1>Experts in Global Transactions from Start to Finish</h1>
-<p>A Global Network of Manufacturers, Factories, Logistics Companies and a Team of On-The-Ground Experts, to ensure seamless transactions guaranteeing delivery of your product on time, without hassle or error.</p>
-<a class="btn" href="#contact">Get a Free Quote</a><a class="btn ghost" href="#fuel">Explore Fuel &amp; Petroleum</a></div></section>
+<header id="hdr"><nav class="wrap"><a class="brand" href="#"><b>Global Trading Partners</b><small>Fuel &amp; Petroleum &middot; Commodities</small></a>
+<button class="burger" aria-label="Menu" onclick="this.classList.toggle('x');document.querySelector('.links').classList.toggle('open')"><span></span><span></span></button>
+<div class="links" onclick="if(event.target.tagName==='A'){this.classList.remove('open');document.querySelector('.burger').classList.remove('x')}"><a href="#fuel">Fuel &amp; Petroleum</a><a href="#divisions">Divisions</a><a href="#about">About / CEO</a><a href="#news">News &amp; Press</a><a href="#contact">Contact</a></div></nav></header>
 
-<section id="fuel" class="fuel"><div class="wrap grid2 fade"><div><p class="eyebrow">Primary Division</p><h2>Fuel &amp; Petroleum</h2>
-<p class="muted">Our main business is in the fuel and petroleum industry, supplying domestic and international buyers with products like EN590, JetA1, D6 and other crude products, backed by relationships built since 2006 with oil traders, petroleum companies, logistics and storage agents.</p>
-<div class="chips"><span>EN590</span><span>JetA1</span><span>D6</span><span>Crude Products</span></div>
-<div class="ph">[Placeholder: product specifications, procedures and storage/port details to be supplied by client]</div>
-<p style="margin-top:24px"><a class="btn" href="#contact">Request Fuel Pricing</a></p></div>
-<img src="https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=1200&q=80" alt="Oil refinery"></div></section>
+<section class="hero" id="top" style="padding:0">
+<div class="slides"><div class="on" style="background-image:url(hero-1.jpg)"></div><div style="background-image:url(refinery-night.jpg)"></div><div style="background-image:url(hero-3.jpg)"></div></div>
+<div class="wrap"><p class="label fade">Fuel &amp; Petroleum &nbsp;|&nbsp; Global Trade</p>
+<h1 class="fade d1">Experts in Global Transactions <em>from Start to Finish</em></h1>
+<p class="lead fade d2">A Global Network of Manufacturers, Factories, Logistics Companies and a Team of On-The-Ground Experts, to ensure seamless transactions guaranteeing delivery of your product on time, without hassle or error.</p>
+<div class="ctas fade d3"><a class="btn" href="#contact">Get a Free Quote</a><a class="btn ghost" href="#fuel">Explore Fuel &amp; Petroleum</a></div></div>
+<div class="hero-foot"><div class="wrap"><span>Scroll to discover</span><div class="dots"><span class="on"></span><span></span><span></span></div></div></div>
+</section>
 
-<section id="divisions"><div class="wrap"><div class="fade"><p class="eyebrow">Our Divisions</p><h2>Trading Across Core Commodities</h2></div>
-<div class="cards fade">
-<a class="card" href="#gloves"><img src="https://images.unsplash.com/photo-1584634731339-252c581abfc5?w=800&q=80" alt="Gloves"><div><h3>Gloves</h3><p>Nitrile, vinyl and latex gloves. Manufacturing and distribution for wholesale buyers globally.</p><span class="more">View Gloves &rarr;</span></div></a>
-<a class="card" href="#commodities"><img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&q=80" alt="Steel"><div><h3>Other Commodities</h3><p>Copper, steel and sugar, sourced through our network of traders, suppliers and manufacturers.</p><span class="more">View Commodities &rarr;</span></div></a>
-<a class="card" href="#instruments"><img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80" alt="Trading"><div><h3>Institutional &amp; Banking Instruments</h3><p>Trade platform and monetization services. [Placeholder: service description from client]</p><span class="more">Learn More &rarr;</span></div></a>
+<section id="fuel" class="fuel"><div class="wrap fuel-grid">
+<div class="fuel-img fade zoom"><div class="frame"><img src="hero-2.jpg" alt="Oil refinery"></div><div class="cap"><b>2006</b><span>Relationships built since</span></div></div>
+<div class="fuel-text"><p class="label fade">01 &nbsp;/&nbsp; Primary Division</p><h2 class="fade d1">Fuel <em>&amp;</em> Petroleum</h2>
+<p class="big fade d2">Our main business is in the fuel and petroleum industry, supplying domestic and international buyers with products like EN590, JetA1, D6 and other crude products, backed by relationships built since 2006 with oil traders, petroleum companies, logistics and storage agents.</p>
+<div class="prods fade d2"><div><svg><use href="#i-drop"/></svg><b>EN590</b><small>Diesel</small></div><div><svg><use href="#i-plane"/></svg><b>JetA1</b><small>Aviation fuel</small></div><div><svg><use href="#i-barrel"/></svg><b>D6</b><small>Fuel oil</small></div><div><svg><use href="#i-rig"/></svg><b>Crude</b><small>Crude products</small></div></div>
+<div class="ph fade">[Placeholder: product specifications, procedures and storage/port details to be supplied by client]</div>
+<div class="row fade"><a class="btn" href="#contact" style="background:var(--ink);border-color:var(--ink);color:var(--ivory)">Request Fuel Pricing</a><a class="arrow" href="#contact">Speak with our desk <i></i></a></div></div>
+</div></section>
+
+<section id="divisions"><div class="wrap">
+<div class="div-head"><div><p class="label fade">Our Divisions</p><h2 class="fade d1">Trading across <em>core commodities</em></h2></div><p class="mute fade d2">Beyond fuel, Global Trading Partners sources and supplies through a network of traders, suppliers and manufacturers.</p></div>
+<div class="tiles">
+<a class="tile tall fade zoom" id="gloves" href="#contact"><img src="gloves.jpg" alt="Gloves"><div class="in"><span class="num">02</span><div><svg><use href="#i-glove"/></svg><h3>Gloves</h3><p>Nitrile, vinyl and latex gloves. Manufacturing and distribution for wholesale buyers globally.</p><span class="arrow">View Gloves <i></i></span></div></div></a>
+<a class="tile fade zoom d1" id="commodities" href="#contact"><img src="steel.jpg" alt="Steel"><div class="in"><span class="num">03</span><div><svg><use href="#i-cube"/></svg><h3>Other Commodities</h3><p>Copper, steel and sugar, sourced through our network of traders, suppliers and manufacturers.</p><span class="arrow">View Commodities <i></i></span></div></div></a>
+<a class="tile fade zoom d2" id="instruments" href="#contact"><img src="finance.jpg" alt="Trading"><div class="in"><span class="num">04</span><div><svg><use href="#i-bank"/></svg><h3>Institutional &amp; Banking Instruments</h3><p>Trade platform and monetization services. [Placeholder: service description from client]</p><span class="arrow">Learn More <i></i></span></div></div></a>
 </div></div></section>
 
-<section id="about" class="ceo fuel"><div class="wrap grid2 fade"><img src="assets/Pat-Mackaronis-img-521x1024.jpeg" alt="Patrick Pat Mackaronis, CEO">
-<div><p class="eyebrow">About Us / CEO Biography</p><h2>Patrick "Pat" Mackaronis</h2><p class="muted" style="margin-bottom:14px">Chief Executive Officer, Global Trading Partners</p>
-<p class="muted">Pat Mackaronis started Global Trading Partners in 2019, after over a decade of experience in Fuel &amp; Petroleum, Global Trade, Logistics, and Import Export Transactions. He began his career in 2006 as a fuel trading consultant for some of the larger US major oil companies.</p>
-<p class="muted" style="margin-top:14px">He led the company into the PPE and Medical Supply industry in 2019/2020, and also owns and operates Mack Construction, a heavy construction company in New York City.</p>
-<p style="margin-top:24px"><a class="btn" href="#contact">Contact Pat</a></p></div></div></section>
+<section id="about" class="about"><div class="wrap ceo-grid">
+<div class="portrait fade zoom"><div class="frame"><img src="Pat-Mackaronis-img-521x1024.jpeg" alt="Patrick Pat Mackaronis, CEO"></div></div>
+<div><p class="label fade">About Us / CEO Biography</p><h2 class="fade d1">Patrick <em>"Pat"</em> Mackaronis</h2><p class="role fade d1">Chief Executive Officer, Global Trading Partners</p>
+<p class="quote fade d2">Over a decade of experience in Fuel &amp; Petroleum, Global Trade, Logistics, and Import Export Transactions.</p>
+<p class="body fade">Pat Mackaronis started Global Trading Partners in 2019, after over a decade of experience in Fuel &amp; Petroleum, Global Trade, Logistics, and Import Export Transactions. He began his career in 2006 as a fuel trading consultant for some of the larger US major oil companies.</p>
+<p class="body fade">He led the company into the PPE and Medical Supply industry in 2019/2020, and also owns and operates Mack Construction, a heavy construction company in New York City.</p>
+<div class="timeline fade"><div><b>2006</b><span>Fuel trading consultant</span></div><div><b>2019</b><span>Founded Global Trading Partners</span></div><div><b>2020</b><span>Entered PPE and medical supply</span></div></div>
+<a class="btn fade" href="#contact">Contact Pat</a></div>
+</div></section>
 
-<section id="news" class="news" style="background:var(--navy)"><div class="wrap"><div class="fade"><p class="eyebrow">News &amp; Press</p><h2>Latest Updates</h2></div>
-<div class="cards fade">
-<div class="card"><img src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&q=80" alt="Port"><div><h3>[Placeholder headline]</h3><p>[Placeholder: press item to be supplied by client]</p></div></div>
-<div class="card"><img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=800&q=80" alt="Containers"><div><h3>[Placeholder headline]</h3><p>[Placeholder: press item to be supplied by client]</p></div></div>
-<div class="card"><img src="assets/IMG_2746.jpeg" alt="Global Trading Partners"><div><h3>[Placeholder headline]</h3><p>[Placeholder: press item to be supplied by client]</p></div></div>
+<section id="news"><div class="wrap">
+<div class="news-head"><div><p class="label fade">News &amp; Press</p><h2 class="fade d1" style="margin-bottom:0">Latest <em>updates</em></h2></div><a class="arrow fade" href="#contact">Press enquiries <i></i></a></div>
+<div class="news-grid">
+<div class="post fade zoom"><div class="frame"><img src="hero-3.jpg" alt="Port"></div><p class="meta">[Placeholder date] &middot; Press</p><h3>[Placeholder headline]</h3><p>[Placeholder: press item to be supplied by client]</p></div>
+<div class="post fade zoom d1"><div class="frame"><img src="containers.jpg" alt="Containers"></div><p class="meta">[Placeholder date] &middot; News</p><h3>[Placeholder headline]</h3><p>[Placeholder: press item to be supplied by client]</p></div>
+<div class="post fade zoom d2"><div class="frame"><img src="IMG_2746.jpeg" alt="Global Trading Partners"></div><p class="meta">[Placeholder date] &middot; Company</p><h3>[Placeholder headline]</h3><p>[Placeholder: press item to be supplied by client]</p></div>
 </div></div></section>
 
-<section id="contact" class="contact fuel"><div class="wrap grid2 fade"><div><p class="eyebrow">Contact</p><h2>Reach Out for More Information</h2>
-<p class="muted">For any questions or additional information, our dedicated office staff is here to help.</p>
-<p style="margin-top:22px">Company: <a style="color:var(--accent)" href="mailto:info@globaltradingpartners.net">info@globaltradingpartners.net</a><br>CEO: <a style="color:var(--accent)" href="mailto:pat@globaltradingpartners.net">pat@globaltradingpartners.net</a><br>Social: @Globaltradingpartners</p>
-<div class="ph">[Placeholder: phone and office address, not listed on current site]</div></div>
-<form onsubmit="event.preventDefault();this.innerHTML='<p>Thank you. This is a demo form.</p>'"><input placeholder="Name" required><input placeholder="Phone Number" required><input type="email" placeholder="Email" required><textarea rows="5" placeholder="Message"></textarea><button class="btn" style="border:0">Send Message (Demo)</button></form></div></section>
+<section id="contact" class="contact"><div class="wrap c-grid">
+<div><p class="label fade">Contact</p><h2 class="fade d1">Reach out for <em>more information</em></h2>
+<p class="fade d2" style="color:#4b5566;max-width:440px">For any questions or additional information, our dedicated office staff is here to help.</p>
+<div class="c-list fade"><div><small>Company</small><a href="mailto:info@globaltradingpartners.net">info@globaltradingpartners.net</a></div><div><small>CEO</small><a href="mailto:pat@globaltradingpartners.net">pat@globaltradingpartners.net</a></div><div><small>Social</small><span>@Globaltradingpartners</span></div></div>
+<div class="ph fade">[Placeholder: phone and office address, not listed on current site]</div></div>
+<form class="fade d1" onsubmit="event.preventDefault();this.innerHTML='<p style=&quot;font-family:Cormorant Garamond,serif;font-size:32px&quot;>Thank you. This is a demo form.</p>'">
+<div class="f"><input id="n" placeholder=" " required><label for="n">Name</label></div>
+<div class="f"><input id="p" placeholder=" " required><label for="p">Phone Number</label></div>
+<div class="f"><input id="e" type="email" placeholder=" " required><label for="e">Email</label></div>
+<div class="f"><textarea id="m" rows="4" placeholder=" "></textarea><label for="m">Message</label></div>
+<button class="btn">Send Message (Demo) <span class="arrow" style="color:inherit"><i></i></span></button></form>
+</div></section>
 
-<footer><div class="wrap"><span>&copy; 2019, Global Trading Partners. All Rights Reserved.</span><span>Concept by DevXtech</span></div></footer>
-<script>const o=new IntersectionObserver(e=>e.forEach(x=>x.isIntersecting&&x.target.classList.add('in')),{threshold:.15});document.querySelectorAll('.fade').forEach(el=>o.observe(el));</script>
+<footer><div class="wrap">
+<div class="f-top"><div><a class="brand" href="#"><b>Global Trading Partners</b><small>Fuel &amp; Petroleum &middot; Commodities</small></a><p>Experts in Global Transactions from Start to Finish.</p></div>
+<div><h4>Divisions</h4><ul><li><a href="#fuel">Fuel &amp; Petroleum</a></li><li><a href="#gloves">Gloves</a></li><li><a href="#commodities">Other Commodities</a></li><li><a href="#instruments">Banking Instruments</a></li></ul></div>
+<div><h4>Company</h4><ul><li><a href="#about">About / CEO</a></li><li><a href="#news">News &amp; Press</a></li><li><a href="#contact">Contact</a></li></ul></div>
+<div><h4>Contact</h4><ul><li><a href="mailto:info@globaltradingpartners.net">info@globaltradingpartners.net</a></li><li><a href="mailto:pat@globaltradingpartners.net">pat@globaltradingpartners.net</a></li><li>@Globaltradingpartners</li></ul></div></div>
+<div class="f-bot"><span>&copy; 2019, Global Trading Partners. All Rights Reserved.</span><span>Concept by <b>DevXtech</b></span></div>
+</div></footer>
+<script>
+const o=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');o.unobserve(x.target)}}),{threshold:.12});document.querySelectorAll('.fade').forEach(el=>o.observe(el));
+const h=document.getElementById('hdr');addEventListener('scroll',()=>h.classList.toggle('solid',scrollY>60),{passive:true});
+const s=[...document.querySelectorAll('.slides div')],d=[...document.querySelectorAll('.dots span')];let k=0;
+setInterval(()=>{s[k].classList.remove('on');d[k].classList.remove('on');k=(k+1)%s.length;s[k].classList.add('on');d[k].classList.add('on')},6500);
+</script>
 </body></html>
